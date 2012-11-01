@@ -1,0 +1,8 @@
+/*
+		BLOCK:				N E X T _ L E S S O N
+    MODIFICATOR:	IE 6+
+*/
+.next-lesson__container
+{
+	behavior: 		url('/css/css3pie/PIE.htc');
+}

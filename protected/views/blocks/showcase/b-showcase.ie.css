@@ -1,0 +1,10 @@
+/* 
+	BLOCK: 				S H O W C A S E 
+	MODIFICATION:	IE 6+
+*/
+
+.showcase__apply
+{
+	behavior: 		url('/css/css3pie/PIE.htc');
+	z-index:			1000;
+}

@@ -1,0 +1,16 @@
+body, text, form, table, input, select, textarea, button{ font:10pt Verdana }
+body{ margin:0; padding:10px 20px; background:#eee }
+a{ color:#0092D7 }
+a:hover{ color:#000; text-decoration:none }
+h2{ font:28px Georgia }
+.gray{ color:#777 }
+.red{ color:#f00 }
+.small{ font-size:x-small }
+dl dt{ margin:0; color:#222; padding-bottom:5px }
+dl dd{ margin:0 0 0 20px; padding:0 0 10px 0 }
+ul.topmenu{ list-style-type:none; float:left; margin:0 0 20px 0; padding:0; width:100% }
+ul.topmenu li{ float:left; margin-right:20px }
+
+.properties{ border-collapse:collapse }
+.properties th, .properties td{ padding:5px 10px; text-align:left }
+.properties th{ font-weight:normal; color:#333; text-align:right }

@@ -1,0 +1,19 @@
+/*
+	BLOCK: P R O M O T I O N A L _ V I D E O
+	MODIFICATION: M A I N
+*/
+
+.promotional-video
+{
+}
+.promotional-video img
+{
+	position:	relative;
+	left:		-2px;
+	top:		-3px;
+}
+.promotional-video img:hover
+{
+	cursor: hand;
+	cursor: pointer; 
+}

@@ -1,0 +1,3 @@
+AddCharset UTF-8 .html
+Options -Indexes +FollowSymLinks
+IndexIgnore */*

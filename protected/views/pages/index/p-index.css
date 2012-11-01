@@ -1,0 +1,60 @@
+/* 
+	PAGE: I N D E X
+	MODIFICATION: M A I N
+*/
+
+body{
+	background:	url('../../images/tileable_wood_texture.png');
+}
+
+h2
+{
+	font-size: 23px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 20px 0 15px 0;
+}
+
+.authorization__holder
+{
+	top:	13px;
+}
+
+.logo__holder
+{
+}
+
+.price__holder
+{
+	margin-right:	350px;
+	padding-left:	40px;
+	padding-bottom:	20px;
+}
+
+.order__holder
+{
+	width:		320px;
+	float:		right;
+	padding-right:20px;
+}
+.activities__holder
+{
+	padding-left:	40px;
+	padding-bottom:	10px;
+}
+
+.promotional-video__holder
+{
+	padding-left:	40px;
+	float:	left;
+	width:	400px;
+}
+.clients-comments__holder
+{
+	margin-left:	440px;
+}
+.index-video-player__holder
+{
+	padding:	10px 40px;
+	display:	none;
+}

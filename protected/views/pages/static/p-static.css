@@ -1,0 +1,41 @@
+/*
+	PAGE: S T A T I C
+*/
+.p-static
+{
+	padding-left:	40px;
+	padding-right:	160px;
+}
+
+h1,h2,h3
+{
+	margin-top:		0px;
+	font-weight:	normal;
+	font-size:		36px;
+}
+h2
+{
+	font-size:		26px;
+	color:			#878787;
+	-webkit-margin-before: 0.9em;
+	-webkit-margin-after:  0.3em;
+}
+h3
+{
+	font-size:		20px;
+	color:			#b3b3b3;
+	-webkit-margin-before: 0.9em;
+	-webkit-margin-after:  0.0em;
+}
+p
+{
+	font-size:		17px;
+	-webkit-margin-before: 0.3em;
+	-webkit-margin-after: 1.0em;
+	color:			#333;
+}
+strong
+{
+	font-weight:	bold;
+	color:			#aa6c00;
+}

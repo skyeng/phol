@@ -1,0 +1,133 @@
+/*
+	BLOCK:   T A S K
+	MODIFICATION:   M A I N
+*/
+.task
+{
+	margin:	15px !important;
+	color:	#484848;
+	font-size:20px;
+}
+.task p
+{
+	margin:	5px	0	13px 0;
+	line-height:	1.4em;
+}
+h1
+{
+	font-size: 28px;
+	color:	#324058;
+	margin-top:		0.3em;
+	margin-bottom:	0.5em;
+	font-weight: normal;
+}
+h2
+{
+	font-size: 23px;
+	color:	#324058;
+	margin-top:		1.2em;
+	margin-bottom:	0.5em;
+	font-weight: normal;
+}
+
+/* Images and comments to it */
+.task__img
+{
+	width: auto !important; /*override the width below*/
+	width: 100%;
+	max-width: 100%;
+	
+	-moz-border-radius: 	5px;
+	-khtml-border-radius: 	5px;
+	-webkit-border-radius: 	5px;
+}
+p.task__img-comment
+{
+	background-color:	#929292;
+	color:				#ffffff;
+	
+	margin:	0	0	15px 0;
+	padding:4px 12px;
+	
+	-moz-border-radius: 	5px;
+	-khtml-border-radius: 	5px;
+	-webkit-border-radius: 	5px;
+	
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size:		16px;
+	font-style:		italic;
+}
+
+/* Blockquote */
+blockquote
+{
+	color:		#484848;
+	margin: 20px 0px;
+	padding: 2px 100px 2px 50px;
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 		18px;
+	line-height:	29px;
+	font-weight: normal;
+	font-style: italic;
+	position:	relative;
+}
+blockquote:before
+{
+	content:"";
+	position:	absolute;
+	width:		12px;
+	height:		100%;
+	background-color:	#D7D7D7;
+	left:	0px;
+	top:	0px;
+
+	-moz-border-radius: 	5px;
+	-khtml-border-radius: 	5px;
+	-webkit-border-radius: 	5px;
+}
+
+/* Dialogues */
+ul.task__dialogue
+{
+	padding-left:	30px;
+	margin:		1em 0;
+	position:	relative;
+}
+ul.task__dialogue:before
+{
+	content:"";
+	position:	absolute;
+	width:		8px;
+	height:		100%;
+	background-color:	#c9e0e4;
+	left:	0px;
+	top:	0px;
+
+	-moz-border-radius: 	3px;
+	-khtml-border-radius: 	3px;
+	-webkit-border-radius: 	3px;
+}
+ul.task__dialogue li
+{
+	list-style-type: none;
+	margin:		0.7em 0;
+}
+.task__dialogue__speaker-1,
+.task__dialogue__speaker-2,
+.task__dialogue__speaker-3,
+.task__dialogue__speaker-4
+{
+	font-weight:	bold;
+	padding-right:	20px;
+}
+
+.task__dialogue__speaker-1{
+	color:	#328472;
+}
+.task__dialogue__speaker-2{
+	color:	#ca7530;
+}
+.task__dialogue__speaker-3{
+	color:	#d68999;
+}
+

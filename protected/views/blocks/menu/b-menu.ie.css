@@ -1,0 +1,9 @@
+/* 
+	BLOCK:			M E N U 
+	MODOCATION:	IE 6+
+*/
+
+.menu__container
+{
+	behavior: 		url('/css/css3pie/PIE.htc');
+}

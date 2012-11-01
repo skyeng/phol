@@ -1,0 +1,187 @@
+/* Q U E S T I O N */
+.question
+{
+}
+.question__next-task__container
+{
+	width:		100%;
+	height:		60px;
+	position:	relative;
+	text-align:	center;
+}
+.question__prev-task
+{
+	color:	white;
+	position:absolute;
+	left:	0px;
+	top:5px;
+	padding:			6px 30px!important;
+	margin-left:		40px;
+	background-color: 	#d2d2d2;
+	border-color:		#bebebe;
+	text-shadow: 		1px 1px 0 rgba(0, 0, 0, 0.35);
+}
+.question__next-task
+{
+	color:	white;
+	position:absolute;
+	right:	0px;
+	top:5px;
+	padding:	6px 30px!important;
+	margin-right:	30px;
+	
+}
+.question input
+{
+	border: 1px solid #cccccc;
+	height: 		21px;
+	display: 		inline;
+	position: 		auto;
+	left: 			auto;
+	font-size: 		18px;
+	margin-top:		4px;
+}
+
+w,sen
+{
+	border-radius: 			4px;
+	-moz-border-radius: 	4px;
+	-webkit-border-radius: 	4px;
+	cursor:		pointer;
+}
+w:hover{
+	color: white;
+	background-color: #C77213 !important;
+	-webkit-transition: background-color 0.1s linear, color 0.1s linear;
+	-moz-transition: background-color 0.1s linear, color 0.1s linear;
+	-o-transition: background-color 0.1s linear, color 0.1s linear;
+	transition: background-color 0.1s linear, color 0.1s linear;
+}
+sen:hover{
+	background-color: #FFFBA8 !important;
+	-webkit-transition: background-color 0.1s linear, color 0.1s linear;
+	-moz-transition: background-color 0.1s linear, color 0.1s linear;
+	-o-transition: background-color 0.1s linear, color 0.1s linear;
+	transition: background-color 0.1s linear, color 0.1s linear;
+	color: #484848;
+}
+
+/* Teacher special */
+teacher
+{
+	font-size:	17px;
+	color:		#416c95;
+	
+
+	display:	block;
+	padding-left:70px;
+
+	background-image:	url('/images/speach-icon.png');
+	background-repeat:	no-repeat;
+	background-position:	0px 0;
+	min-height:	50px;
+	margin:		10px 0;
+}
+com,
+explain
+{
+	padding: 8px 35px 8px 14px;
+
+	color: #C09853;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	
+	background-color: #FCF8E3;
+	border: 1px solid #FBEED5;
+	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+	display:		block;
+	font-size:		17px;
+	
+	margin:		10px 0;
+}
+com:before,
+explain:before
+{
+font-size: 11.844px;
+	font-weight: bold;
+	line-height: 14px;
+	color: white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-color: #999;
+	
+	padding: 			1px 4px 2px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 		3px;
+	
+	margin-right:	6px;
+}
+explain
+{
+	color: #3A87AD;
+	background-color: #D9EDF7;
+	border-color: #BCE8F1;
+}
+explain:before
+{
+	content:	"Material info";
+	background-color: #3A87AD;
+}
+com:before
+{
+	content:	"Teacher comment";
+	background-color: #F89406;
+}
+
+
+
+/* Q U E S T I O N >> P L A I N _ T E X T */
+
+.question__plain-text
+{
+	padding:	5px 20px 0px 40px;
+	color: #484848;
+	font-size: 19px;
+}
+
+.question__plain-text p
+{
+	margin: 5px	0	13px 0;
+	line-height: 1.6em;
+}
+
+blockquote
+{
+	color:		#484848;
+	margin: 20px 0px;
+	padding: 2px 100px 2px 50px;
+	font-family: Georgia, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 		18px;
+	line-height:	1.4em;
+	font-weight: normal;
+	font-style: italic;
+	position:	relative;
+}
+blockquote:before
+{
+	content:"";
+	position:	absolute;
+	width:		12px;
+	height:		100%;
+	background-color:	#D7D7D7;
+	left:	0px;
+	top:	0px;
+
+	-moz-border-radius: 	5px;
+	-khtml-border-radius: 	5px;
+	-webkit-border-radius: 	5px;
+}
+.question__plain-text blockquote
+{
+	font-size:	16px;
+}

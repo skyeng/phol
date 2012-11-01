@@ -1,0 +1,15 @@
+.main
+{
+}
+.main__container
+{
+	behavior: 		url('/css/css3pie/PIE.htc');
+}
+.main__container:before,
+{
+	behavior: 		url('/css/css3pie/PIE.htc');
+}
+.main__container:after
+{
+	display:	none;
+}

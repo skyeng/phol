@@ -1,0 +1,34 @@
+/* 
+	BLOCK: C L I E N T S _ C O M M E N T S
+	MODIFICATION: M A I N
+*/
+
+.clients-comments
+{
+}
+.clients-comments__img
+{
+	float:	left;
+	width:	50%;
+}
+.clients-comments__img p
+{
+	color:		#99a8ae;
+	font-size:	17px;
+	margin:		10px 0 10px 10px;
+}
+.clients-comments__text
+{
+	float:	left;
+	width:	50%;
+}
+.clients-comments__text p
+{
+	padding-right:	15px;
+	margin-top:		0px;
+	font-size:		16px;
+	font-family:	Georgia;
+	font-style:		italic;
+	line-height:	24px;
+	color:			#55656c;
+}

@@ -1,0 +1,2 @@
+Options -Indexes
+RemoveType .pl .cgi .php .php5 .php4 .php3 .phtml

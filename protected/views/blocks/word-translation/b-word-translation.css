@@ -1,0 +1,141 @@
+/* 
+	BLOCK: W O R D _ T R A N S L A T I O N
+	MODIFICATION: M A I N
+*/
+
+.b-word-translation
+{
+	background-color: 		#F3F3F3;
+	padding: 				8px;
+	border-style: 			solid;
+	border-width: 			1px;
+	border-color: 			#EDEDED;
+	-moz-border-radius: 	7px;
+	-webkit-border-radius: 	7px;
+	border-radius: 			7px;
+	text-align: 			left;
+}
+
+/* Left column */
+.b-word-translation__left-column
+{
+	float:			left;
+	width:			52%;
+	padding-right:	3%;
+}
+.b-word-translation__word-holder
+{
+	background-color:	#fff;
+	-moz-border-radius: 	5px;
+	-webkit-border-radius: 	5px;
+	border-radius: 			5px;
+	
+	padding:		0 5px 3px 5px;
+	margin:			2px 0 5px 0;
+}
+p.b-word-translation__word
+{
+	margin: 	0 0 3px 0;
+	font-size:	22px;
+	color:		#C77213;
+}
+p.b-word-translation__transcription
+{
+	margin: 	0 0 3px 0;
+	font-size:	16px;
+	color:		#cac3b7;
+}
+.b-word-translation__transcription img
+{
+	position:	relative;
+	top:		2px;
+}
+.b-word-translation__img
+{
+	width: auto !important;
+	width: 100%;
+	max-width: 100%;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/* Right column */
+.b-word-translation__right-column
+{
+	float:	left;
+	width:	45%;
+}
+p.b-word-translation__translation
+{
+	margin: 	2px 0 3px 0;
+	font-size:	21px;
+	color:		#616161;
+}
+/* Список альтернативных переводов */
+p.b-word-translation__more-translations-title
+{
+	margin: 	0px 0 3px 0;
+	font-size:	15px;
+	color:		#cdcdcd;
+}
+ul.b-word-translation__more-translations-list
+{
+	margin:		0px;
+	padding:	0px;
+}
+li.b-word-translation__more-translations-element
+{
+	padding-bottom:	3px;
+	list-style-type: none;
+}
+li.b-word-translation__more-translations-element a
+{
+	color:			#a9a9a9;
+	text-decoration:none;
+	border-bottom:	dashed;
+	border-width:	1px;
+	border-color:	#d2d2d2;
+	position:		relative;
+	top:			-2px;
+	font-size:		14px;
+}
+li.b-word-translation__more-translations-element a t:hover{
+	color: white;
+	background-color: #C77213 !important;
+	-webkit-transition: background-color 0.1s linear, color 0.1s linear;
+	-moz-transition: background-color 0.1s linear, color 0.1s linear;
+	-o-transition: background-color 0.1s linear, color 0.1s linear;
+	transition: background-color 0.1s linear, color 0.1s linear;
+	
+	-moz-border-radius: 	3px;
+	-khtml-border-radius: 	3px;
+	-webkit-border-radius: 	3px;
+}
+li.b-word-translation__more-translations-element-active a t{
+	color: white;
+	background-color: #aaa !important;
+	-webkit-transition: background-color 0.1s linear, color 0.1s linear;
+	-moz-transition: background-color 0.1s linear, color 0.1s linear;
+	-o-transition: background-color 0.1s linear, color 0.1s linear;
+	transition: background-color 0.1s linear, color 0.1s linear;
+	
+	-moz-border-radius: 	3px;
+	-khtml-border-radius: 	3px;
+	-webkit-border-radius: 	3px;
+}
+/* Добавить в словарь */
+p.b-word-translation__add
+{
+	margin: 	6px 0 3px 0;
+	font-size:	15px;
+}
+p.b-word-translation__add img
+{
+	position: 	relative;
+	top:		2px;
+}
+p.b-word-translation__add a
+{
+	color:		#5B8698;
+}

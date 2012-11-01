@@ -1,0 +1,40 @@
+/*
+		BLOCK:				N E X T _ L E S S O N
+    MODIFICATOR:	M A I N 
+*/
+
+.next-lesson__container
+{
+	background-color:	#fffcd9;
+	
+	-webkit-border-radius: 	12px;
+	-moz-border-radius: 		12px;
+	border-radius: 					12px;
+	
+	border-width:	1px;
+	border-style:	solid;
+	border-color:	#f3efbb;
+	
+	margin:		0 20px 0 20px;
+	padding:	0 10px 0 20px;
+	
+	color:			#c1941b;
+	font-size:	17px;
+}
+.next-lesson
+{
+	padding-bottom:	15px;
+}
+.next-lesson__time
+{
+	font-size:		19px;
+	padding-left:	30px;
+}
+
+.next-lesson__skype-small-icon
+{
+	position:		relative;
+	top:			3px;
+	width:			16px;
+	height:			16px;
+}

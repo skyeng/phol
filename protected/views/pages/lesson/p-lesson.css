@@ -1,0 +1,42 @@
+/*
+	PAGE: L E S S O N
+	MODIFICATION: M A I N
+*/
+
+.workplace__holder
+{
+	margin-right:	325px;
+}
+
+.tools__holder
+{
+	float:			right;
+	width:			300px;
+	padding:		0 20px;
+	text-align:		right;
+}
+.task
+{
+	padding-top:	1px;
+}
+.chat__holder
+{
+	padding-bottom:	10px;
+}
+.translator__holder
+{
+	padding-bottom:	10px;
+}
+.b-lesson-new-words-list__holder
+{
+	padding-bottom:	10px;
+}
+.b-word-translation__holder
+{
+	padding-bottom:	10px;
+}
+
+
+.main__header {
+	height: 110px!important;
+}

@@ -1,0 +1,45 @@
+/* 
+	BLOCK: 				G L O B A L 
+	FILE:					kit.css
+	MODIFICATOR:	IE 6+
+*/
+
+.button
+{
+	box-shadow:		none;
+	text-shadow:	none;
+	/*behavior: 		url('/css/css3pie/PIE.htc');*/
+}
+
+.nice-shadowed-box__container
+{
+	box-shadow: none;
+}
+.nice-shadowed-box__container:before,
+.nice-shadowed-box__container:after
+{
+	box-shadow: none;
+}
+
+.lifted__container
+{
+	behavior: 			url('/css/css3pie/PIE.htc');
+}
+.lifted__container:before,
+.lifted__container:after
+{
+	box-shadow:			none!important;
+}
+.nice-shadowed-box__container
+{
+	background:	none;
+}
+textarea,
+input
+{
+	behavior: 			url('/css/css3pie/PIE.htc');
+}
+textarea:focus,
+input:focus { 
+	box-shadow:			none;
+}

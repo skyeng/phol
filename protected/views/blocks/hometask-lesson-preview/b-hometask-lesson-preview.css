@@ -1,0 +1,108 @@
+/*
+	BLOCK:  		H O M E T A S K _ L E S S O N _ P R E V I E W
+	MODIFICATION:   M A I N
+*/
+
+.hometask-lesson-preview
+{
+	
+}
+.hometask-lesson-preview__container
+{
+	background-color: 		#FFFDEA;
+	-webkit-border-radius: 	7px;
+	-moz-border-radius: 	7px;
+	
+	border-radius: 			7px;
+	border-width: 	1px;
+	border-style: 	solid;
+	border-color: 	#F3EFBB;
+	
+	margin: 		0 10px 0 20px;
+	padding: 		0 20px 0 20px;
+	color: 			#C1941B;
+	font-size: 		17px;
+}
+
+.hometask-lesson-preview__progress-bar
+{
+	float:		right;
+	margin-top:	7px;
+	font-size:	16px;
+	color:		#a5a5a5;
+}
+.hometask-lesson-preview__progress-bar p
+{
+	float:			right;
+	margin:			0;
+	padding-top:	4px;
+	color:			#245791;
+}
+.progress-bar__container
+{
+	width:	150px;
+	float:	right;
+	padding:6px 9px 0 0;
+}
+.hometask-lesson-preview__holder img
+{	
+	width: auto !important;
+	width: 100%;
+	max-width: 100%;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+h2.hometask-lesson-preview__title
+{
+	font-size:	20px;
+	margin:		7px 0 14px 0;
+}
+h2.hometask-lesson-preview__title span
+{
+	font-size:	18px;
+	margin-left:30px;
+}
+p.hometask-lesson-preview__task
+{
+	margin:	0;
+}
+p.hometask-lesson-preview__task span.time
+{
+	font-size:	13px;
+	color:		#777777;
+	margin-left:20px;
+}
+p.hometask-lesson-preview__task span.approxim
+{
+	position:	relative;
+	top:		2px;
+	padding:	0 2px 0 0;
+}
+p.hometask-lesson-preview__comment
+{
+	margin:			0;
+	color:			#666;
+	padding:		5px 0;
+	font-size:		15px;
+	line-height:	1.7em
+}
+
+ol.hometask-lesson-preview__task-list
+{
+	padding-left:	20px;
+}
+
+ol.hometask-lesson-preview__task-list li
+{
+	margin-bottom:	10px;
+}
+
+.hometask-lesson-preview__button
+{
+	float:	right;
+	margin-bottom:	10px;
+	padding:	6px 15px!important;
+	background-color: #2F88BB;
+	border-color: #245791;
+}

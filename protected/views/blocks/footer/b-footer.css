@@ -1,0 +1,16 @@
+/* 
+	BLOCK: F O O T E R
+	b-footer.css
+*/
+.footer{
+	margin: 40px 35px 0 40px;
+	padding: 8px 0 10px 0;
+	color: #BABABA;
+	background: url("../images/border.gif") repeat-x top left;
+	font-size: 		14px;
+}
+.footer a
+{ 	
+	color:	#74999f;
+	margin-right:	40px;
+}

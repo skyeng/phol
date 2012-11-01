@@ -1,0 +1,48 @@
+/* 	
+	BLOCK: A U T H O R I Z A T I O N 
+	MODIFICATOR: B E F O R E _ L O G I N
+*/
+
+.authorization p.authorization
+{
+	margin:	0px;
+	padding-bottom:	8px;
+}
+.authorization input
+{
+	height:	21px;
+	padding-left:	24px;
+	margin-top:		7px;
+	font-family:	Arial;
+	color: #9D9D9D;
+	font-size:	12px;
+}
+.authorization input::-webkit-input-placeholder {
+    color:    #d9d9d9;
+}
+.authorization input:-moz-placeholder {
+    color:    #d9d9d9;
+}
+.authorization input:-ms-input-placeholder {
+    color:    #d9d9d9;
+}
+.authorization p.authorization
+{
+	color:		#9c9c9c;
+	font-size:	16px;
+	padding-left:1px;
+}
+.authorization input.authorization__login
+{
+	background: url(../images/input-userpic.png) no-repeat 7px 5px;
+}
+.authorization input.authorization__pass
+{
+	background: url(../images/input-lockpic.png) no-repeat 7px 5px;
+}
+.authorization a.authorization__login
+{
+	color:		#2e6b80;
+	font-size:	14px;
+	padding-left:	10px;
+}

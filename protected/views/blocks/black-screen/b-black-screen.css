@@ -1,0 +1,16 @@
+/* 
+	BLOCK:			B L A C K _ S C R E E N
+	MODIFICATOR:	M A I N
+*/
+.black__screen
+{
+	width:			100%;
+	height:			100%;
+	position:		absolute;
+	top:			0px;
+	left:			0px;
+	background-color:	#000000;
+	z-index:		0;
+	opacity:		0;
+
+}

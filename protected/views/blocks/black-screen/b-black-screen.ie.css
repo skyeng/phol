@@ -1,0 +1,9 @@
+/* 
+	BLOCK:			B L A C K _ S C R E E N
+	MODIFICATOR:	IE 6+
+*/
+.black__screen
+{
+	filter:		progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+	display:	none;
+}

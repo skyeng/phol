@@ -1,0 +1,165 @@
+/* 
+	BLOCK: 				G L O B A L 
+	FILE:					global.css
+	MODIFICATION:	M A I N
+*/
+body
+{
+	background-color:	#288c42;
+	background:				url('../images/retina_wood.png');
+	font-family:			Calibri;
+	padding:					30px 10px;
+	margin:						0px;
+	height:						100%;
+	min-height: 			100%;
+	position:					relative;
+}
+p
+{
+	margin:	1em 0;
+}
+h1
+{
+
+}
+h2
+{
+	font-size:	20px;
+	font-weight:normal;
+}
+a
+{
+	color:	#5b8698;
+}
+table
+{
+	border-spacing:	0px;
+}
+textarea {
+	font-family: Calibri!important;
+}
+/* M A I N */
+.main
+{
+	margin:			0 auto;
+	max-width:	1150px;
+	min-width:	1020px;
+	position:		relative;
+}
+.main__container
+{
+	background-color:			rgb(255,255,255);
+
+	-moz-border-radius:		6px;
+	-webkit-border-radius:6px;
+	border-radius:				6px;
+}
+.main__container:before
+{
+	top: 			20px;
+	bottom: 	50px;
+	left: 		5px;
+	right: 		5px;
+	
+	-webkit-box-shadow: 	0 0 125px rgba(255, 255, 255, 1);
+	-moz-box-shadow: 			0 0 125px rgba(255, 255, 255, 1);
+	box-shadow: 					0 0 125px rgba(255, 255, 255, 1);
+	
+	-moz-border-radius: 	60px / 300px;
+	border-radius: 				60px / 300px;
+	
+	content: 	"";
+	position: absolute;
+	z-index: 	-1;
+}
+.main__container:after
+{
+	top: 		-6px;
+	bottom: -6px;
+	left: 	-6px;
+	right: 	-6px;
+	
+	-moz-border-radius:			9px;
+	-webkit-border-radius:	9px;
+	border-radius:					9px;
+	
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=5); /* IE 5.5+*/
+	-moz-opacity: 			0.05; /* Mozilla 1.6 и ниже */
+	-khtml-opacity: 		0.05; /* Konqueror 3.1, Safari 1.1 */
+	opacity: 						0.05; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9 */
+
+	background-color: rgb(0, 0, 0);
+	content: 					"";
+	position: 				absolute;
+	z-index: 					-2;
+}
+/* H E A D E R */
+.main__header
+{
+	position:	relative;
+	height:		110px;
+}
+.logo__holder
+{
+	position:	absolute;
+	left:			40px;
+	top:			12px;
+}
+.authorization__holder
+{
+	position:	absolute;
+	right:		25px;
+	top:			20px;
+}
+.timer__holder
+{
+	position:	absolute;
+	right:		500px;
+	top:			14px;
+}
+.menu__holder
+{
+	position:	absolute;
+	right:		20px;
+	top:			85px;
+}
+
+/* S T R E E P */
+	
+.main__streep
+{
+	padding-top:10px;
+}
+.main__streep p.navigation
+{
+	font-size:		21px;
+	font-weight:	normal;
+	padding-left:	40px;
+	margin:				0px;
+}
+.main__streep p.navigation a
+{
+	color:		#646464;
+}
+.main__streep p.navigation span.arrow
+{
+	font-family:Times new roman;
+	font-weight:bold;
+	color:			#646464;
+}
+
+/* B O D Y */
+
+.main__body__padding
+{
+	padding:	0 20px 0 40px;
+}
+
+
+
+
+
+.clear
+{
+	clear:	both;
+}

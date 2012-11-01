@@ -1,0 +1,9 @@
+assets/
+css/*.css
+js/*.js
+protected/config/static/
+*.orig
+protected/runtime
+webstat/
+/nbproject/private/
+*.work.*

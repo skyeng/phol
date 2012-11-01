@@ -1,0 +1,9 @@
+/* 
+	BLOCK: 				O R D E R
+	MODIFICATION:	IE 6+
+*/
+
+.order__apply
+{
+	behavior: 		url('/css/css3pie/PIE.htc');
+}

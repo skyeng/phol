@@ -1,0 +1,83 @@
+/* 
+	BLOCK: P R I C E
+	MODIFICATION: M A I N
+*/
+
+div.price
+{
+	
+}
+.price__table
+{
+	margin-bottom:	15px;
+	border-spacing: 0px;
+	width: 100%;
+}
+.price__table td
+{
+	padding:		0;
+	vertical-align:	center;
+	font-size:		17px;
+	text-align:		center;
+	height:			40px;
+}
+.price__table td.price__multi-session
+{
+	
+	color:		#bb2f5f;
+}
+.price__table td.price__single-session
+{
+	color:		#bb2f5f;
+	font-weight:bold;
+}
+.price__table td.price__title
+{
+	color:		#0f6176;
+	text-align:	left;
+	padding-left:0px;
+}
+.price__table tr.price__first
+{
+	color:		#6a6a6a;
+}
+.price__table td.price__free
+{
+}
+.price__table img.price__free
+{
+	position:	absolute;
+	left:		0;
+	top:		-5px;
+}
+.price__table td.price__left-border
+{
+	border-left-width:	1px;
+	border-left-style:	solid;
+	border-color:		#e0e0e0;
+	
+}
+.price__time-duration
+{
+	margin:		0px;
+	font-size:	17px;
+	position:	relative;
+	top:		5px;
+}
+.price__time-duration img
+{
+	padding-right:	10px;
+	position:		relative;
+	top:			8px;
+}
+.price h2
+{
+	padding-bottom:	0px;
+}
+
+.price__free-holder
+{
+	width:	100%;
+	height:	100%;
+	position:	relative;
+}

@@ -1,0 +1,38 @@
+/*
+	PAGE:			A F T E R _ L E S S O N
+    MODIFICATOR:	M A I N 
+*/
+
+h2.after-lesson__title-first
+{
+	margin-top:	0.5em;
+}
+h2.after-lesson__title
+{
+	margin-top:	1.5em;
+}
+.next-lesson__holder
+{
+	margin-top:		30px;
+}
+.student-schedule-table__holder
+{
+	margin-right:	300px;
+	padding-left:	40px;
+	padding-right:	20px;
+}
+
+.lessons-left-widget__holder
+{
+	float:			right;
+	width:			279px;
+	padding-right:	21px;
+	padding-top:	11px;
+}
+
+p.after-lesson__information
+{
+	font-size:		17px;
+	color:			#5c5c5c;
+	width:			80%;
+}

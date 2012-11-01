@@ -1,0 +1,75 @@
+/*
+	BLOCK:  		A R C H I V E _ L I S T
+	MODIFICATION:   M A I N
+*/
+
+.archive-list
+{
+	
+}
+.archive-list__container
+{
+	background-color: 	#F3F3F3;
+	padding: 			6px 0 0 0;
+	border-style: 		solid;
+	border-width: 		1px;
+	border-color: 		#EDEDED;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 		7px;
+	text-align: 		left;
+	
+	font-size:			15px;
+}
+
+.archive-list__title
+{
+	margin:			0;
+	padding:		0 0 12px 12px;
+}
+
+ul.archive-list__list 
+{
+	margin:			0;
+	padding-left:	0;
+}
+
+ul.archive-list__list li
+{
+	padding:	0 12px;
+	padding-top:7px;
+	height:		24px;
+	list-style-type: none;
+	
+	background-image: 	url('../images/blocks/archive-list/archive-list_bg.png');
+	background-repeat:	repeat-x;
+	background-position:top left;
+	
+}
+ul.archive-list__list li:hover
+{
+	background-color:	#f9f9f6!important;
+}
+ul.archive-list__list li a
+{
+	text-decoration:	none;
+}
+ul.archive-list__list li.active
+{
+	background-color:	#e7eaec;
+}
+
+ul.archive-list__list li.active a
+{
+	color:		#444444;
+}
+
+ul.archive-list__list li.uncompleted a
+{
+	color:		#ae5f12;
+}
+
+ul.archive-list__list  li.completed a
+{
+	color:		#60ba2f;
+}

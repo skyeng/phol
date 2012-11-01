@@ -1,0 +1,10 @@
+/*
+	LAYOUT:		E X T E R N A L
+*/
+
+
+
+/* Rewrite header height */
+.main__header {
+	height: 110px!important;
+}

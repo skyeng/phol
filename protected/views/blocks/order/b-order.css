@@ -1,0 +1,51 @@
+/* 
+	BLOCK: 				O R D E R
+	MODIFICATION: M A I N
+*/
+
+.order
+{
+	padding-left:				10px;
+	position:						relative;
+}
+.order__box
+{
+	width: 100%;
+
+	-moz-box-sizing: 			border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: 				border-box;
+	
+
+	background-color:			#ebfbff;
+	margin:								15px 0 ;
+	padding-top:					5px;
+
+	-webkit-box-shadow: 	0 1px 4px rgba(0, 0, 0, 0.15), 	0 0 40px rgba(0, 0, 0, 0.04) inset;
+	-moz-box-shadow: 			0 1px 4px rgba(0, 0, 0, 0.15), 	0 0 40px rgba(0, 0, 0, 0.04) inset;
+	box-shadow: 					0 1px 4px rgba(0, 0, 0, 0.15), 	0 0 40px rgba(0, 0, 0, 0.04) inset;
+}
+.order h2
+{
+	padding-top:	0px;
+}
+.order__text
+{
+	color:				#4b6169;
+	font-size:		16px;
+	margin:				5px 0;
+}
+.order input
+{
+	width:				200px;
+	margin-top:		10px;
+}
+.order__apply
+{
+	color:				#ffffff;
+	padding:			6px 15px!important;
+	margin-top:		15px;
+	float:				left;
+	background-color:		#2f88bb;
+	border-color:				#245791;
+}

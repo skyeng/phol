@@ -1,0 +1,32 @@
+/* 
+	BLOCK:			M E N U 
+	MODOCATION:	M A I N
+*/
+
+.menu{
+}
+.menu__container{	
+	position:					relative;
+	background-color:	#f3f3f3;
+	padding:					5px 25px 6px 20px;
+	
+	border-style:		solid;
+	border-width:		1px;
+	border-color:		#ededed;
+	
+	-moz-border-radius:			7px;
+	-webkit-border-radius:	7px;
+	border-radius:					7px;
+}
+.menu__link{	
+	color:						#4f89a7;
+	font-size:				16px;
+	font-weight:			normal;
+	padding-left: 		55px;
+}
+.menu__link-active{
+	color:		#757575;
+}
+.menu__link-first{
+	padding-left: 0;
+}

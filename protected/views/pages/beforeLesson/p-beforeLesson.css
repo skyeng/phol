@@ -1,0 +1,20 @@
+/*
+	BLOCK:			B E F O R E _ L E S S O N
+    MODIFICATOR:	M A I N 
+*/
+
+.student-schedule-table__holder
+{
+	margin-right:	300px;
+	padding-left:	40px;
+	padding-right:	20px;
+}
+
+.lessons-left-widget__holder
+{
+	float:			right;
+	width:			279px;
+	padding-right:	21px;
+	padding-top:	11px;
+}
+

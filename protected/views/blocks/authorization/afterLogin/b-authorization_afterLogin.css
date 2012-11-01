@@ -1,0 +1,31 @@
+/* 	
+	BLOCK: A U T H O R I Z A T I O N 
+	MODIFICATOR: A F T E R _ L O G I N
+*/
+
+.authorization__information-holder
+{
+	margin-left:	37px;
+}
+.authorization__userpic{
+	float:	left;
+	padding-top:	4px;
+}
+.authorization__username{	
+	margin:		0;
+	color:		#c1c1c1;
+	font-size:	17px;
+}
+.authorization__username__age{
+	color:		#60ba2f;
+}
+.authorization__usernick{	
+	margin:		0;
+	color:		#4f89a7;
+	font-size:	13px;
+}
+.authorization__username__logout{
+	font-weight:	bold;
+	color:		#4f89a7;
+	padding-left:	5px;
+}

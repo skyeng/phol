@@ -1,0 +1,67 @@
+/* 
+	BLOCK:	S H O W C A S E
+	MODIFICATION: M A I N
+*/
+.showcase
+{
+	margin:				10px 20px!important;
+}
+.showcase__text
+{
+	margin-right:	546px;
+	position:			relative;
+}
+.showcase__image
+{
+	float:	right;
+	width:	546px;
+}
+.showcase__title
+{
+	text-align:	center;
+	font-size:	23px;
+	margin:			25px 0 30px 0;
+}
+.showcase__features
+{
+	color:			#0f6176;
+	font-size:	17px;
+	padding:		0px;
+}
+.showcase__features li
+{
+	padding:					5px 20px 15px 30px;
+	background: 			url(../images/point.png) no-repeat 0px 6px;
+	list-style-type: 	none;
+}
+.showcase__apply
+{
+	color:		#ffffff;
+	padding:	6px 30px!important;
+	float:		left;
+	margin-left:30px;
+	margin-bottom:15px;
+	background-color:	#bb2f5f;
+	border-color:		#912437;
+}
+
+/* Slide-galery */
+#showcase__slideshow {
+    position:relative;
+    height:421px;
+}
+
+#showcase__slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+}
+
+#showcase__slideshow IMG.showcase__slideshow-active {
+    z-index:10;
+}
+
+#showcase__slideshow IMG.showcase__slideshow-last-active {
+    z-index:9;
+}

@@ -1,0 +1,21 @@
+/* Таблица с расписанием занятий */
+
+.student-schedule-table__title
+{
+	font-size:		19px;
+}
+table.student-schedule-table__table
+{
+	font-size:		15px;
+}
+table.student-schedule-table__table th
+{
+	color:	#c1941b;
+	font-weight: normal;
+	text-align:	left;
+}
+table.student-schedule-table__table td
+{
+	color:	#887575;
+	padding:	12px 70px 0 0;
+}

@@ -1,0 +1,16 @@
+/*
+	PAGE:			B E F O R E _ H O M E T A S K
+    MODIFICATOR:	M A I N 
+*/
+
+.archive-list__holder
+{
+	width:		300px;
+	padding:	0 20px 0 10px;
+	float:		right;
+}
+
+.hometask-lesson-preview__holder
+{
+	margin-right:	330px;
+}
